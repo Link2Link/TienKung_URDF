@@ -85,7 +85,7 @@
     name="hip_roll_l_joint"
     type="revolute">
     <origin
-      xyz="0 0.13 -0.0659230484541305"
+      xyz="0 0.13 -0.079"
       rpy="0 0 0" />
     <parent
       link="pelvis" />
@@ -409,7 +409,7 @@
     name="hip_roll_r_joint"
     type="revolute">
     <origin
-      xyz="0 -0.13 -0.0659230484541306"
+      xyz="0 -0.13 -0.079"
       rpy="0 0 0" />
     <parent
       link="pelvis" />
