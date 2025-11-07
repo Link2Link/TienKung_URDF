@@ -30,6 +30,62 @@ TienKung_URDF （项目根目录）
  │   ├── README.md                # Pro 版本说明
 ```
 
+```
+ │
+ ├── 📂 tiangong2pro-urdf/        # 天工 2.0 Pro URDF
+ │   ├── 📂 urdf/                 # URDF 文件
+ │   │   ├── tiangong2.0_pro_urdf.urdf # 机器人本体urdf
+ │   │   ├── tiangong2.0_pro_urdf.urdf.xacro # 机器人本体xacro
+ │   │   ├── tiangong2.0_pro_with_hands.urdf # 机器人带灵巧手urdf
+ │   │   ├── tiangong2.0_complete_with_hands.xacro # 机器人带手xacro
+ │   ├── 📂 meshes/               # STL 网格文件
+ │   │   ├── ankle_pitch_l_link.STL
+ │   │   ├── shoulder_pitch_r_link.STL
+ │   │   ├── ...
+ │   ├── 📂 launch/               # ROS2 Launch 启动文件
+ │   │   ├── display.launch.py
+ │   │   ├── display_with_hands.launch.py
+ │   ├── 📂 config/               # ROS2 RViz 配置文件
+ │   │   ├── display.rviz
+ │   ├── 📂 script/               # 参数检查与更新脚本
+ │   │   ├── check_joint_and_update.py
+ │   │   ├── check_link_and_update.py
+ │   ├── 📂 关键参数/             # 关键参数表
+ │   │   ├── URDF关键参数表 - 天工2.0pro.csv
+ │   │   ├── URDF关键参数表 - 天工2.0pro.png
+ │   ├── CMakeLists.txt           
+ │   ├── package.xml              # ROS 包描述文件
+```
+
+```
+ │
+ ├── 📂 tianyi2-urdf/             # 天轶 2.0 URDF
+ │   ├── 📂 urdf/                 # URDF 文件
+ │   │   ├── tianyi2.0_URDF.urdf  # 机器人本体urdf
+ │   │   ├── tianyi2.0_URDF.urdf.xacro # 机器人本体xacro
+ │   │   ├── tianyi2.0_urdf_with_hands.urdf # 机器人带灵巧手urdf
+ │   │   ├── tianyi2.0_complete_with_hands.xacro # 机器人带手xacro
+ │   ├── 📂 meshes/               # STL 网格文件
+ │   │   ├── base.STL
+ │   │   ├── shoulder_pitch_r_link.STL
+ │   │   ├── ...
+ │   ├── 📂 launch/               # ROS2 Launch 启动文件
+ │   │   ├── display.launch.py
+ │   │   ├── display_with_hands.launch.py
+ │   ├── 📂 config/               # ROS2 RViz 配置文件
+ │   │   ├── display.rviz
+ │   ├── 📂 script/               # 参数检查与更新脚本
+ │   │   ├── check_joint_and_update.py
+ │   │   ├── check_link_and_update.py
+ │   ├── 📂 关键参数/             # 关键参数表
+ │   │   ├── URDF关键参数表 - 天轶2.0.csv
+ │   │   ├── URDF关键参数表 - 天轶2.0.png
+ │   ├── CMakeLists.txt           
+ │   ├── package.xml              # ROS 包描述文件
+```
+
+
+
 ---
 
 ##  URDF 说明
